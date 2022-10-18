@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 50vh;
+    background-image: url('myimages/bhh.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+  }
+  #home{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: rgb(241, 113, 214);
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    align-items: left;
+    position: absolute;
+    top: 30;
+    left: 10%;
+  }
+  .headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: left;
+    margin: 200px 0px;
+  }
+
+
